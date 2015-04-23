@@ -2,6 +2,8 @@
 ENABLE_REPLAY = paramsArray select 0;
 IS_STREAMABLE = paramsArray select 1;
 
+[radio] execVM "ambient\sound.sqf"; 
+
 enableSaving [false,false];
 
 firstspawn = false;
@@ -14,10 +16,10 @@ cameraOldPimped = compile preprocessFile "spectator\cameraOld_rip.sqf";
 
 
 [[
-  ["rogaintask","Camp Rogain besichtigen","Unser Auftraggeber möchte den Stützpunkt Camp Rogain besichtigen.",blufor],
-  ["generaltask","General besuchen","Ein ehemaliger General lebt im Norden der Insel. Die Zielperson möchte Ihn besuchen.",blufor],
-  ["docktask","Öffentlich zeigen","Die Zielperson möchte eine Rede in der Hauptstadt der Insel halten.",blufor],
-  ["helitask","Prototyp anschauen","Die Zielperson möchte den neuen Transporthubschrauber besichtigen.",blufor],
+  ["rogaintask","Große Moschee besichtigen","Unser Auftraggeber möchte die 'Große Moschee' besichtigen.",blufor],
+  ["generaltask","Bürgermeister besuchen","Der Bürgermeister der Region soll im Kampf gegen die Aufständischen unterstürzt werden. Die Zielperson möchte Ihn besuchen.",blufor],
+  ["docktask","Dialog mit Angehörigen","Die Zielperson möchte mit den Angehörigen der Opfor reden.",blufor],
+  ["helitask","Plantage besichtigen","Die Zielperson möchte eine örtliche Plantage begutachten",blufor],
   ["killviptask","Eliminiert die Zielperson","Unser Auftrag ist die Zielperson auszuschalten.",opfor]
 ],[
   ["Credits","Mission by Cuel
