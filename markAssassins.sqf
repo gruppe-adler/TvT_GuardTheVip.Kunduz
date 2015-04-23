@@ -38,6 +38,7 @@ if (!isMultiplayer) then {players = switchableUnits} else {
 while {true} do {
 	waitUntil {sleep (ceil(random 50)*10); alive player};
 	_markArr = [];
+	hintSilent "Die Infidels wurden gesichtet";
 	
 	{
 	if (vehicle _x != _x && alive _x  && side  _x != side player) then {
