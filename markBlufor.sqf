@@ -18,7 +18,7 @@ if (toLower (str player) != "vip") then {
 	_vipmark = createMarkerLocal ["VIPMarker", [(getPosATL VIP select 0),(getPosATL VIP select 1)]];
 	_vipmark setMarkerShapeLocal "ICON";
 	_vipmark setMarkerTypeLocal "mil_dot";
-	_vipmark setMarkerColorLocal "ColorBlue";
+	_vipmark setMarkerColorLocal "ColorBLUFOR";
 	_vipmark setMarkerTextLocal " VIP";
 	_vipmark spawn { while {alive VIP} do {
 		_this setMarkerPosLocal (getPos VIP);
@@ -38,7 +38,7 @@ if ((side _x) == blufor && vehicle _x != _x && alive _x ) then {
 	_mark = createMarkerLocal [_id, [(getPosATL _x select 0),(getPosATL _x select 1)]];
 	_mark setMarkerShapeLocal "ICON";
 	_mark setMarkerTypeLocal "mil_box";
-	_mark setMarkerColorLocal "ColorBlue";
+	_mark setMarkerColorLocal "ColorBLUFOR";
 	_mark setMarkerTextLocal format [" %1", name _x];
 	sleep 0.02;
 	_markArr = _markArr + [_mark];
