@@ -27,19 +27,37 @@ CUL_fn_Equip = {
 			}else{
 					player linkItem "ItemGPS";
 					
-					player addUniform "U_Marshal";
-					player addHeadGear "H_Cap_police";
-					player addVest "V_TacVest_blk_POLICE";
+					player forceAddUniform "GER_Tropentarn_Officer_Uniform";
+					player addHeadGear "ARC_Beret_UN";
+					player addVest "V_PlateCarrier1_blk";
+					for "_i" from 1 to 2 do {player addItemToUniform "16Rnd_9x21_Mag";};
+
+					for "_i" from 1 to 4 do {player addItemToVest "AGM_Bandage";};
+					for "_i" from 1 to 2 do {player addItemToVest "AGM_Morphine";};
+					for "_i" from 1 to 2 do {player addItemToVest "AGM_Epipen";};
+					for "_i" from 1 to 2 do {player addItemToVest "AGM_CableTie";};
+					player addItemToVest "AGM_EarBuds";
+					for "_i" from 1 to 8 do {player addItemToVest "16Rnd_9x21_Mag";};
+
+					player addGoggles "G_Squares_Tinted";
+					player addWeapon "hgun_P07_F";
+					player addWeapon "Binocular";
+					player linkItem "ItemMap";
+					player linkItem "ItemCompass";
+					player linkItem "ItemWatch";
+					player linkItem "tf_anprc152";
+					player linkItem "ItemGPS";
+
 					[] spawn {
 					while {alive player} do {
-							waitUntil {uniform player != "U_Marshal" || headGear player != "H_Cap_police" || vest player != "V_TacVest_blk_POLICE"};
+							waitUntil {uniform player != "GER_Tropentarn_Officer_Uniform" || headGear player != "ARC_Beret_UN" || vest player != "V_PlateCarrier1_blk"};
 							{deleteVehicle _x} forEach (nearestObjects[player,["WeaponHolder"],3]);
 							removeHeadGear player;
 							removeVest player;
 							removeUniform player;
-							player addUniform "U_Marshal";
-							player addHeadGear "H_Cap_police";
-							player addVest "V_TacVest_blk_POLICE";
+							player addUniform "GER_Tropentarn_Officer_Uniform";
+							player addHeadGear "ARC_Beret_UN";
+							player addVest "V_PlateCarrier1_blk";
 							};
 					};
 			};
