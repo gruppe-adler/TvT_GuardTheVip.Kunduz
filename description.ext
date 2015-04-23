@@ -4,7 +4,7 @@ onLoadIntro="Der UN-Oberst hat einige Aufgaben in der Region Kunduz zu erledigen
 onLoadIntroTime=false;
 onLoadMission="Der UN-Oberst hat einige Aufgaben in der Region Kunduz zu erledigen. Die Gruppe Adler hat den Auftrag Ihn vor allen möglichen Gefahren zu schützen notfalls mit dem Einsatz des Lebens...";
 onLoadMissionTime=false;
-overviewPicture="Pic\GuardTheVip.jpg"; //mission picture for loading screen only
+overviewPicture="pic\GTV.jpg"; //mission picture for loading screen only
 
 
 // description.ext settings for respawn

@@ -2568,7 +2568,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="box";
-			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this; box addMagazinecargoglobal [""ClaymoreDirectionalMine_Remote_Mag"", 3];";
+			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this; box addMagazinecargoglobal [""IEDLandSmall_Remote_Mag"", 3];";
 		};
 		class Item19
 		{

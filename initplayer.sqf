@@ -15,14 +15,14 @@ CUL_fn_Equip = {
 				if ((str player) in ["s1","s2","s3","s4","s5","s6"]) then {
 					player linkItem "ItemGPS";
 				
-					player addUniform "ARC_GER_Flecktarn_Uniform";
-					player addHeadGear "ARC_Partners_Cap_TM";
-					player addVest "ARC_GER_Flecktarn_Plate_Carrier";
+					player addUniform "ARC_GER_Tropentarn_Uniform";
+					player addHeadGear "ARC_UN_M2000";
+					player addVest "ARC_GER_Tropentarn_Plate_Carrier";
 					player addMagazine "HandGrenade";
 				}else{
-					player addUniform "ARC_GER_Flecktarn_Uniform";
-					player addHeadGear "ARC_GER_Flecktarn_Helmet_Light"; 
-					player addVest "ARC_GER_Flecktarn_Plate_Carrier";
+					player addUniform "ARC_GER_Tropentarn_Uniform";
+					player addHeadGear "ARC_UN_M2000"; 
+					player addVest "ARC_GER_Tropentarn_Plate_Carrier";
 				};
 			}else{
 					player linkItem "ItemGPS";
@@ -65,7 +65,7 @@ CUL_fn_Equip = {
 		case opfor: {
 			//"respawn_west" setmarkeralphalocal 0;
 			{_x setMarkerColorLocal "ColorRed"; _x setMarkerTextLocal " VIP eliminieren"}forEach ["helimark","rogainmark","generalmark","dockmark"];
-			{_x setMarkerTextLocal " VIP eliminieren (Blufor-Gebiet)"}forEach ["helimark","rogainmark"];
+			{_x setMarkerTextLocal " VIP eliminieren"}forEach ["helimark","rogainmark"];
 			player addUniform "U_CAF_AG_EEUR_FATIGUES_03";
 			player addVest "V_TacVest_oli";
 			
