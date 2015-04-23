@@ -36,7 +36,7 @@ if (!isMultiplayer) then {players = switchableUnits} else {
 	};
 };
 while {true} do {
-	waitUntil {sleep (ceil(random 100)*10); alive player};
+	waitUntil {sleep (ceil(random 50)*10); alive player};
 	_markArr = [];
 	
 	{
