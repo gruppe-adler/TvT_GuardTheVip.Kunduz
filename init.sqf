@@ -3,6 +3,7 @@ ENABLE_REPLAY = paramsArray select 0;
 IS_STREAMABLE = paramsArray select 1;
 
 [radio] execVM "ambient\sound.sqf"; 
+[radio2] execVM "ambient\sound2.sqf"; 
 
 enableSaving [false,false];
 

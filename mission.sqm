@@ -72,19 +72,18 @@ class Mission
 	randomSeed=11563325;
 	class Intel
 	{
-		timeOfChanges=1800.0002;
-		startWeather=0.30000001;
-		startWind=0.1;
-		startWaves=0.1;
-		forecastWeather=0.30000001;
-		forecastWind=0.1;
-		forecastWaves=0.1;
-		forecastLightnings=0.1;
+		startWeather=0.29999998;
+		startWind=0.099999994;
+		startWaves=0.099999994;
+		forecastWeather=0.29999998;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		forecastLightnings=0.099999994;
 		year=2009;
 		month=7;
 		day=6;
-		hour=12;
-		minute=0;
+		hour=4;
+		minute=55;
 		startFogDecay=0.013;
 		forecastFogDecay=0.013;
 	};
@@ -655,7 +654,7 @@ class Mission
 					offsetY=4.3000002;
 					id=36;
 					side="CIV";
-					vehicle="C_man_1";
+					vehicle="CAF_AG_ME_CIV";
 					skill=0.60000002;
 					text="general";
 					init="this addAction[""<t color='#A1C7A2'>Reden</t>"",""scripts\talk.sqf"",0, 100, true, true, """",""player distance general < 4 && alive general && player == vip""];";
@@ -1023,7 +1022,7 @@ class Mission
 				class Item0
 				{
 					position[]={3301.1167,3.2390077,992.56177};
-					azimut=179.59801;
+					azimut=228.10228;
 					id=48;
 					side="CIV";
 					vehicle="CAF_AG_ME_CIV";
@@ -1055,7 +1054,7 @@ class Mission
 				class Item0
 				{
 					position[]={3294.4653,1.6849029,992.24731};
-					azimut=190.409;
+					azimut=146.17824;
 					id=49;
 					side="CIV";
 					vehicle="CAF_AG_ME_CIV";
@@ -1087,7 +1086,7 @@ class Mission
 				class Item0
 				{
 					position[]={3294.3438,1.6680816,991.3374};
-					azimut=111.891;
+					azimut=139.80571;
 					id=50;
 					side="CIV";
 					vehicle="CAF_AG_ME_CIV";
@@ -2339,8 +2338,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3817.3005,11.57394,2917.7361};
-					azimut=60.159649;
+					position[]={3817.4663,11.5741,2917.3655};
+					azimut=49.826038;
 					id=84;
 					side="CIV";
 					vehicle="CAF_AG_ME_CIV";
@@ -2353,7 +2352,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3821.5574,3.9667492,2919.1929};
+					position[]={3821.3914,3.9954967,2919.563};
 					speed="LIMITED";
 					combat="CARELESS";
 					class Effects
@@ -2371,8 +2370,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3823.6216,10.986759,2922.1282};
-					azimut=72.197655;
+					position[]={3823.9167,10.964602,2922.2207};
+					azimut=213.48773;
 					id=85;
 					side="CIV";
 					vehicle="CAF_AG_ME_CIV";
@@ -2385,7 +2384,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3822.458,4.0708532,2920.7771};
+					position[]={3822.4036,4.0816078,2920.926};
 					speed="LIMITED";
 					combat="CARELESS";
 					class Effects
@@ -2436,7 +2435,7 @@ class Mission
 				class Item0
 				{
 					position[]={3826.3875,10.612383,2917.0332};
-					azimut=59.524651;
+					azimut=-107.57557;
 					id=87;
 					side="CIV";
 					vehicle="CAF_AG_ME_CIV";
@@ -2462,7 +2461,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=60;
+		items=61;
 		class Item0
 		{
 			position[]={1736.0419,35.221775,114.88835};
@@ -3081,6 +3080,17 @@ class Mission
 			vehicle="Land_Basket_F";
 			leader=1;
 			skill=0.2;
+		};
+		class Item60
+		{
+			position[]={4966.0537,11.914107,4850.0435};
+			azimut=218.80499;
+			id=148;
+			side="EMPTY";
+			vehicle="HeliHEmpty";
+			leader=1;
+			skill=0.2;
+			text="radio2";
 		};
 	};
 	class Markers
