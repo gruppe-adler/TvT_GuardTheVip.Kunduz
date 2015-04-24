@@ -13,6 +13,9 @@ firstspawn = false;
 cameraOldPimped = compile preprocessFile "spectator\cameraOld_rip.sqf";
 
 [] execVM "CSSA3\CSSA3_init.sqf";
+call compile preprocessFileLineNumbers "ShoterAnimation\init.sqf";
+//Execute scripts
+[] execVM "VCOM_Driving\init.sqf";
 
 
 

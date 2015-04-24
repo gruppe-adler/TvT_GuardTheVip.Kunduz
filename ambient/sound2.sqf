@@ -12,7 +12,7 @@ _soundToPlay = _soundPath + "ambient\allah.ogg";
 while {alive _obj} do {    
 
         
-    playSound3D [_soundToPlay, _obj, false, getPosASL _obj, 10, 1, 100];    
+    playSound3D [_soundToPlay, _obj, false, [(getPosASL _obj) select 0, (getPosASL _obj select 1), 4], 10, 1, 100];    
     sleep 211;   
 };
 };
