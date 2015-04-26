@@ -4260,7 +4260,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="sand";
-			init="sand attachTo [UN, [0, -2.8, -0.3]]; sand setDir 180;";
+			init="sand attachTo [UN, [0, -2.8, -0.3]]; sand setDir 180; sand setPos getPos UN";
 		};
 		class Item80
 		{
@@ -4273,7 +4273,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="sand_1";
-			init="sand_1 attachTo [UN, [0.9, -1.7, -0.3]]; sand_1 setDir 270;";
+			init="sand_1 attachTo [UN, [0.9, -1.7, -0.3]]; sand_1 setDir 270; sand_1 setPos getPos UN";
 		};
 		class Item81
 		{
@@ -4286,7 +4286,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="sand_2";
-			init="  sand_2 attachTo [UN, [-0.9, -1.7, -0.3]]; sand_2 setDir 270;";
+			init="  sand_2 attachTo [UN, [-0.9, -1.7, -0.3]]; sand_2 setDir 270; sand_2 setPos getPos UN";
 		};
 	};
 	class Markers
