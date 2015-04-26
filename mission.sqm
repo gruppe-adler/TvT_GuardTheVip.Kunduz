@@ -43,7 +43,8 @@ class Mission
 		"A3_Soft_F_TruckHeavy",
 		"A3_Modules_F_Curator_Animals",
 		"A3_Structures_F_Items_Electronics",
-		"A3_Structures_F_Civ_Accessories"
+		"A3_Structures_F_Civ_Accessories",
+		"A3_Structures_F_Mil_BagFence"
 	};
 	addOnsAuto[]=
 	{
@@ -87,6 +88,7 @@ class Mission
 		"a3_trees",
 		"A3_Structures_F_Items_Electronics",
 		"A3_Structures_F_Civ_Accessories",
+		"A3_Structures_F_Mil_BagFence",
 		"pra3_kz"
 	};
 	randomSeed=11563325;
@@ -118,8 +120,9 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={-38.51437,124.85999,-55.313126};
-					azimut=292.67651;
+					presence=0;
+					position[]={109.64008,104.0481,58.652023};
+					azimut=292.677;
 					id=0;
 					side="WEST";
 					vehicle="B_Soldier_F";
@@ -3433,7 +3436,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=79;
+		items=82;
 		class Item0
 		{
 			position[]={1736.0419,35.221775,114.88835};
@@ -3685,8 +3688,8 @@ class Mission
 			side="EMPTY";
 			vehicle="B_G_Offroad_01_armed_F";
 			skill=0.60000002;
-			init="this setVariable [""BIS_enableRandomization"",false];this setObjectTextureGlobal [0,""\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE02_CO.paa""];";
-			description="The VIP";
+			text="UN";
+			init="this setVariable [""BIS_enableRandomization"",false];this setObjectTextureGlobal [0,""pic\UNOffroad.paa""];";
 		};
 		class Item24
 		{
@@ -4245,6 +4248,45 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			init="this setobjecttextureglobal [0, ""pic\kamaz_kab_civ2_co.paa""]; this setobjecttextureglobal [1, ""pic\kamaz_kuz_cdf_co.paa""]; this setHit [""wheel_2_1_steering"", 1];";
+		};
+		class Item79
+		{
+			position[]={1734.8799,34.987717,124.83856};
+			azimut=90;
+			special="NONE";
+			id=182;
+			side="EMPTY";
+			vehicle="Land_BagFence_Short_F";
+			leader=1;
+			skill=0.60000002;
+			text="sand";
+			init="sand attachTo [UN, [0, -2.8, -0.3]]; sand setDir 180;";
+		};
+		class Item80
+		{
+			position[]={1737.0281,34.880932,124.59717};
+			azimut=90;
+			special="NONE";
+			id=183;
+			side="EMPTY";
+			vehicle="Land_BagFence_Short_F";
+			leader=1;
+			skill=0.60000002;
+			text="sand_1";
+			init="sand_1 attachTo [UN, [0.9, -1.7, -0.3]]; sand_1 setDir 270;";
+		};
+		class Item81
+		{
+			position[]={1741.325,34.098465,124.47632};
+			azimut=90;
+			special="NONE";
+			id=184;
+			side="EMPTY";
+			vehicle="Land_BagFence_Short_F";
+			leader=1;
+			skill=0.60000002;
+			text="sand_2";
+			init="  sand_2 attachTo [UN, [-0.9, -1.7, -0.3]]; sand_2 setDir 270;";
 		};
 	};
 	class Markers
