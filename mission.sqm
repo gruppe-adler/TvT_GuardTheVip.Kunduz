@@ -3436,7 +3436,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=82;
+		items=84;
 		class Item0
 		{
 			position[]={1736.0419,35.221775,114.88835};
@@ -3447,7 +3447,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="car1";
-			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this; this disableTIEquipment true;";
+			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this; this disableTIEquipment true; this disableTIEquipment true; ";
 		};
 		class Item1
 		{
@@ -3641,7 +3641,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="car1_1";
-			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this; this disableTIEquipment true;";
+			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this; this disableTIEquipment true; this disableTIEquipment true; ";
 		};
 		class Item20
 		{
@@ -3653,7 +3653,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="car1_2";
-			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this; this disableTIEquipment true;";
+			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this; this disableTIEquipment true; this disableTIEquipment true; ";
 		};
 		class Item21
 		{
@@ -3665,7 +3665,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="car1_3";
-			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this; this disableTIEquipment true;";
+			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this; this disableTIEquipment true; this disableTIEquipment true; ";
 		};
 		class Item22
 		{
@@ -3677,7 +3677,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="car1_4";
-			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this; this disableTIEquipment true;";
+			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this; this disableTIEquipment true; this disableTIEquipment true; ";
 		};
 		class Item23
 		{
@@ -4288,6 +4288,30 @@ class Mission
 			text="sand_2";
 			init="  sand_2 attachTo [UN, [-0.9, -1.7, -0.3]]; sand_2 setDir 270; sand_2 setPos getPos UN";
 		};
+		class Item82
+		{
+			position[]={1763.4943,38.230724,75.99675};
+			azimut=-37.139652;
+			id=185;
+			side="EMPTY";
+			vehicle="Fennek_UN";
+			leader=1;
+			skill=0.60000002;
+			text="car1_4_1";
+			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this; this disableTIEquipment true; this disableTIEquipment true; ";
+		};
+		class Item83
+		{
+			position[]={1769.3851,39.384747,69.648788};
+			azimut=-42.967587;
+			id=186;
+			side="EMPTY";
+			vehicle="Fennek_UN";
+			leader=1;
+			skill=0.60000002;
+			text="car1_4_2";
+			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this; this disableTIEquipment true; this disableTIEquipment true; ";
+		};
 	};
 	class Markers
 	{
@@ -4320,9 +4344,9 @@ class Mission
 		};
 		class Item3
 		{
-			position[]={1698.2131,33.622658,81.348389};
+			position[]={1785.5944,34.217522,117.79462};
 			name="HQ";
-			text="UN Startpunkt";
+			text="UN Convoy";
 			type="flag_Germany";
 		};
 		class Item4
