@@ -24,6 +24,17 @@ if (!_hasAction) then {
 
 
 _availableHeadgear = [
+	"H_CAF_AG_TURBAN",
+	"H_CAF_AG_PAKTOL",
+	"H_CAF_AG_PAKTOL_01",
+	"H_CAF_AG_PAKTOL_02",
+	"H_CAF_AG_PAKTOL_03",
+	"H_CAF_AG_WRAP",
+	"H_CAF_AG_FUR",
+	"H_CAF_AG_FUR2",
+	"H_CAF_AG_BEANIE",
+	"H_CAF_AG_BOONIE_01",
+	"H_CAF_AG_BOONIE_02",
 	"H_Watchcap_cbr",
 	"H_Shemag_olive_hs",
 	"H_Hat_camo",
@@ -78,19 +89,47 @@ _availableVests = [
 ];
 
 _availableUniforms = [
+	"U_CAF_AG_EEUR_FATIGUES_01",
+	"U_CAF_AG_EEUR_FATIGUES_01a",
+	"U_CAF_AG_EEUR_FATIGUES_02",
+	"U_CAF_AG_EEUR_FATIGUES_02a",
+	"U_CAF_AG_EEUR_FATIGUES_03",
+	"U_CAF_AG_EEUR_FATIGUES_03a",
+	"U_CAF_AG_EEUR_FATIGUES_03b",
+	"U_CAF_AG_EEUR_FATIGUES_03c",
 	"U_OG_Guerilla1_1",
 	"U_OG_Guerilla2_1",
 	"U_OG_Guerilla2_3",
 	"U_OG_Guerilla3_1",
 	"U_OG_Guerilla3_2",
-	"U_CAF_AG_AFR_CLOTHES_01e",
-	"U_CAF_AG_AFR_CLOTHES_02a",
-	"U_OG_leader"
+	"U_OG_leader",
+    "U_CAF_AG_ME_ROBES_01",
+	"U_CAF_AG_ME_ROBES_01a",
+	"U_CAF_AG_ME_ROBES_01b",
+	"U_CAF_AG_ME_ROBES_01c",
+	"U_CAF_AG_ME_ROBES_01d",
+	"U_CAF_AG_ME_ROBES_02",
+	"U_CAF_AG_ME_ROBES_02a",
+	"U_CAF_AG_ME_ROBES_02b",
+	"U_CAF_AG_ME_ROBES_02c",
+	"U_CAF_AG_ME_ROBES_02d",
+	"U_CAF_AG_ME_ROBES_03",
+	"U_CAF_AG_ME_ROBES_03a",
+	"U_CAF_AG_ME_ROBES_03b",
+	"U_CAF_AG_ME_ROBES_03c",
+	"U_CAF_AG_ME_ROBES_03d",
+	"U_CAF_AG_ME_ROBES_04",
+	"U_CAF_AG_ME_ROBES_04a",
+	"U_CAF_AG_ME_ROBES_04b",
+	"U_CAF_AG_ME_ROBES_04c",
+	"U_CAF_AG_ME_ROBES_04d",
+	"U_CAF_AG_ME_ROBES_mil_01",
+	"U_CAF_AG_ME_ROBES_mil_01a"
 ];
 
 _availableWeapons = [
-	"hlc_rifle_L1A1SLR",
-	"hlc_rifle_FAL5061",
+	"hlc_rifle_ak12",
+	"hlc_rifle_aku12",
 	"hlc_rifle_ak47",
 	"hlc_rifle_ak74",
 	"hlc_rifle_ak74_dirty",
@@ -98,10 +137,11 @@ _availableWeapons = [
 	"hlc_rifle_aks74",
 	"hlc_rifle_aks74u",
 	"hlc_rifle_aek971",
-	"hgun_ACPC2_F",
-	"hlc_rifle_aku12",
-	"hlc_rifle_ak12",
-	"Binocular"
+	"Binocular",
+	"hgun_P07_F",
+	"hgun_Rook40_F",
+	"srifle_DMR_06_olive_F",
+	"hgun_PDW2000_F"
 ];
 
 _magazineCargo = [

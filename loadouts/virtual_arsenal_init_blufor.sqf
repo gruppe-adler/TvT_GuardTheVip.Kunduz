@@ -31,7 +31,8 @@ _availableHeadgear = [
     "ARC_GER_Flecktarn_Helmet",
     "ARC_GER_Flecktarn_Helmet_simple",
     "ARC_GER_Tropentarn_Helmet_simple",
-    "ARC_Common_OD_M_Helmet"
+    "ARC_GER_Tropentarn_Helmet_Light",
+    "ARC_GER_Flecktarn_Helmet_Light"
 ];
 
 _availableBackpacks = [
@@ -63,7 +64,29 @@ _availableItems = [
     "AGM_CableTie",
     "AGM_MapTools",
     "AGM_DefusalKit",
-    "NVGoggles_INDEP"
+    "NVGoggles_INDEP",
+    "FHQ_acc_LLM01F",
+	"FHQ_acc_ANPEQ15_black",
+	"FHQ_acc_ANPEQ15",
+	"FHQ_optic_AC11704",
+	"FHQ_optic_AC11704_tan",
+	"FHQ_optic_MARS",
+	"SMA_supp2btanSCAR_556",
+	"SMA_supp2bSCAR_556",
+	"SMA_spSCARtan_762",
+	"SMA_spSCAR_762",
+	"SMA_supptan_762",
+	"SMA_supp_762",
+	"SMA_supp2btan_556",
+	"SMA_supp1tan_556",
+	"SMA_supp1b_556",
+ 	"SMA_Silencer_556",
+ 	"optic_Hamr",
+ 	"optic_Aco",
+ 	"bipod_01_F_blk",
+ 	"bipod_01_F_snd",
+ 	"optic_KHS_blk",
+ 	"optic_KHS_tan"
 ];
 
 _availableVests = [
@@ -77,9 +100,6 @@ _availableUniforms = [
 ];
 
 _availableWeapons = [
-    "hlc_rifle_bcmjack",
-    "hlc_rifle_RU556",
-    "hlc_rifle_RU5562",
     "SMA_AUG_A3_F",
     "SMA_AUG_A3_MCAM_F",
     "SMA_AUG_A3_KRYPT_F",
@@ -101,13 +121,19 @@ _availableWeapons = [
     "arifle_MX_F",
     "arifle_MX_Black_F",
     "hgun_Pistol_heavy_01_F",
-    "hlc_smg_mp5k",
     "hgun_ACPC2_F",
     "hlc_smg_mp5a4",
     "hlc_smg_mp5n",
     "hlc_smg_mp5k_PDW",
     "SMG_01_F",
-    "Rangefinder"
+    "Rangefinder",
+    "MMG_01_base_F",
+	"MMG_01_hex_ACRO_LP_F",
+	"MMG_01_hex_F",
+	"MMG_01_tan_F",
+	"srifle_DMR_03_F",
+	"srifle_DMR_03_tan_F",
+	"srifle_DMR_06_olive_F"
 ];
 
 _magazineCargo = [

@@ -474,10 +474,10 @@ class Mission
 					special="NONE";
 					id=27;
 					side="EAST";
-					vehicle="O_Soldier_F";
+					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Attentäter";
+					description="Attentäter (Medic)";
 				};
 				class Item2
 				{
@@ -486,10 +486,10 @@ class Mission
 					special="NONE";
 					id=28;
 					side="EAST";
-					vehicle="O_Soldier_F";
+					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Attentäter";
+					description="Attentäter (Medic)";
 				};
 				class Item3
 				{
