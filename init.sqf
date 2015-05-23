@@ -18,6 +18,7 @@ call compile preprocessFileLineNumbers "ShoterAnimation\init.sqf";
 [] execVM "VCOM_Driving\init.sqf";
 
 
+
 [[
   ["rogaintask","Große Moschee besichtigen","Unser Auftraggeber möchte die 'Große Moschee' besichtigen.",blufor],
   ["generaltask","Bürgermeister besuchen","Der Bürgermeister der Region soll im Kampf gegen die Aufständischen unterstürzt werden. Die Zielperson möchte Ihn besuchen.",blufor],
