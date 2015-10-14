@@ -1,5 +1,5 @@
 author="XiviD (Edited Version)";
-OnLoadName = "Guard the VIP";
+OnLoadName = "Guard the VIP V1";
 onLoadIntro="Der UN-Oberst hat einige Aufgaben in der Region Kunduz zu erledigen. Die Gruppe Adler hat den Auftrag Ihn vor allen möglichen Gefahren zu schützen notfalls mit dem Einsatz des Lebens...";
 onLoadIntroTime=false;
 onLoadMission="Der UN-Oberst hat einige Aufgaben in der Region Kunduz zu erledigen. Die Gruppe Adler hat den Auftrag Ihn vor allen möglichen Gefahren zu schützen notfalls mit dem Einsatz des Lebens...";
